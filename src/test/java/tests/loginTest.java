@@ -13,7 +13,7 @@ import utils.loginTD;
 
 @Listeners(listeners.ReportListener.class)
 public class loginTest extends baseTest {
-
+//login tests
 	@Test(testName = "TC01-Login with valid credentials", description = "Verifies that a registered user can successfully authenticate into the EventHub application using a valid email and password", groups = {
 			"Functional" })
 	public void Login_with_valid_credentials() {
